@@ -1,6 +1,6 @@
 # Server_CentOS
 Building server from scratch.
-
+Note: This guide i made for me that it will be easy to look sometimes on it, if this help you, enjoy.
 ### What so special about this project. ###
 
 Well for me its my first project for building server from scratch.
