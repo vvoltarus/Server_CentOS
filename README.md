@@ -1,21 +1,65 @@
-# Server_CentOS
-Building server from scratch.
-Note: This guide I made for myself and it will be easy for me to look sometimes on it, if this help you, enjoy.
-### What so special about this project. ###
+# CentOS Secure Server Lab - Modification to Rocky Linux
 
-Well for me its my first project for building server from scratch.
-In this project I install CentOS for training and make best practice for security.
+## Overview
 
-In this project:
+This project demonstrates how to build a **secure Linux server from scratch**, applying practical system administration and cybersecurity principles.
 
-1. Server Installation.
-2. Troubleshooting.
-3. Install Apache web server.
-4. Installation of MYSQL Database.
-5. Installation of POSTFIX Mail Server.
+---
 
+## Objective
 
-Links that help me a lot :
-1. http://www.servermom.org/basic-centos-setup-before-building-a-working-server/414/
+* Harden a CentOS server
+* Configure secure SSH access
+* Implement firewall rules
+* Add basic intrusion detection
+* Automate checks with CI/CD
 
-2. https://computingforgeeks.com/change-ssh-port-centos-rhel-fedora-with-selinux/
+---
+
+## Lab Structure
+
+* **Level 1 — Server Hardening**
+  Users, privileges, system security baseline
+
+* **Level 2 — SSH Security**
+  Key-based auth, access restrictions
+
+* **Level 3 — Firewall**
+  Traffic filtering, logging
+
+* **Level 4 — IDS**
+  Monitoring and detection
+
+* **Level 5 — CI/CD**
+  Automated validation with GitHub Actions
+
+* **Level 6 — Docker (optional)**
+  Containerized service deployment
+
+---
+
+## Technologies
+
+Linux (CentOS), Bash, SSH, iptables/firewalld, IDS (Wazuh/OSSEC), Docker, GitHub Actions
+
+---
+
+## Purpose
+
+This project demonstrates practical skills in:
+
+* Linux administration
+* Security hardening
+* System monitoring
+* Automation
+
+---
+
+## Goal
+
+Portfolio project for:
+
+* Junior SysAdmin
+* Linux Administrator
+* DevOps (entry-level)
+* Security / Blue Team
